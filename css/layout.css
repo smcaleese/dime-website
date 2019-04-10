@@ -2,10 +2,6 @@
   font-family: "Overpass", "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #444;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
 
 html,
 body,
@@ -15,6 +11,9 @@ div {
   border: 0;
 }
 
+.navbar {
+  margin-bottom: 5em;
+}
 #bootstrap-overrides nav {
   background-color: rgba(30, 136, 229);
 }
@@ -24,34 +23,8 @@ div {
   color: white;
 }
 
-#main {
-  border: 2px solid black;
-  width: 70%;
-  min-width: 1000px;
-  margin: auto;
-  height: 800px;
-}
-
 #center {
   display: flex;
-}
-
-#left {
-  position: absolute;
-  border: 1px solid black;
-  width: 500px;
-  height: 500px;
-  left: 20%;
-  top: 200px;
-}
-
-#right {
-  position: absolute;
-  border: 1px solid black;
-  width: 500px;
-  height: 500px;
-  right: 20%;
-  top: 200px;
 }
 
 #main-image {
