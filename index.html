@@ -5,7 +5,9 @@
 	<title>Kareer</title>
 	<link rel="stylesheet" type="text/css" href="css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="css/quiz.css" />
-	<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800"
+		rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.0.slim.min.js"></script>
@@ -13,26 +15,36 @@
 
 <body id="bootstrap-overrides">
 	<nav class="navbar navbar-expand-lg navbar-light">
-		<a id="navbar-brand" class="navbar-brand" href="index.html">Kareer</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<div class="container">
+			<a id="navbar-brand" class="navbar-brand" href="index.html"><img src="assets/logo/White.png" /></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="test.html">Test</a>
-				</li>
-			</ul>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="test.html">Test</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
-	<!-- Content -->
-
+	<div class="masthead">
+		<div class="container">
+			<div class="col-md-5 masthead-copy">
+				<h1>Ready, set, work.
+				</h1>
+				<h2>Get started in the world with a job from Kareer.
+				</h2>
+			</div>
+		</div>
+	</div>
 	<div id="main">
 		<div class="container">
 			<div class="row">
@@ -43,6 +55,8 @@
 						job
 						process.</p>
 					<h1>Wireframes are only temporary to guide design</h1>
+					<img src="assets/img/playstore-badge.png" class="store-badge" />
+					<img src="assets/img/appstore-badge.png" class="store-badge" />
 				</div>
 
 				<div class="col-md-6">
@@ -50,9 +64,6 @@
 				</div>
 			</div>
 		</div>
-
-		<img src="playstore-badge.png" id="playstore-badge" alt="playstore-badge" />
-		<img src="appstore-badge.png" id="appstore-badge" alt="appstore-badge" />
 	</div>
 
 	<div class="container-dark">
