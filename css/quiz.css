@@ -1,0 +1,17 @@
+.btn {
+  padding: 0.4em 0.7em;
+  margin: 0.4em;
+  color: white;
+  border-radius: 0.3em;
+  background-color: #1e88e5;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #1e88e5;
+  cursor: pointer;
+}
+.quiz-container {
+  background-color: #eee;
+  text-align: center;
+  padding: 3em 0;
+}
