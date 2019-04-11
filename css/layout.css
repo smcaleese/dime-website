@@ -33,6 +33,10 @@ div {
 	margin: auto;
 }
 
+#main-slogan {
+	font-size: 4em;
+}
+
 .phone {
 	position: relative;
 	height: 500px;
@@ -57,16 +61,13 @@ div {
 .store-badge {
   height: 3em;
 }
-#test {
-  text-align: center;
-  border: 2px solid black;
-  width: 70%;
-  margin: auto;
-  height: 800px;
+
+.research-container {
+	text-align: center;
 }
 
-#test h1 {
-  padding: 40px;
+.research-header {
+	padding: 30px;
 }
 
 .masthead {
