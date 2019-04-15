@@ -106,3 +106,10 @@ div {
 .card {
   margin-bottom: 1.5em;
 }
+.text-muted,
+h3 {
+  margin-top: 2em;
+}
+.text-muted > li {
+  color: inherit;
+}
