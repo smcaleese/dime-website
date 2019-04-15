@@ -30,17 +30,17 @@ div {
 }
 
 .main-container {
-	margin: auto;
+  margin: auto;
 }
 
 #main-slogan {
-	font-size: 4em;
+  font-size: 4em;
 }
 
 .phone {
-	position: relative;
-	height: 500px;
-	width: 300px;
+  position: relative;
+  height: 500px;
+  width: 300px;
 }
 
 #phone-image {
@@ -63,11 +63,11 @@ div {
 }
 
 .research-container {
-	text-align: center;
+  text-align: center;
 }
 
 .research-header {
-	padding: 30px;
+  padding: 30px;
 }
 
 .masthead {
@@ -95,4 +95,14 @@ div {
 }
 .blue {
   color: #1e88e5;
+}
+.three-steps > .row {
+  margin-top: 3em;
+}
+.subheading {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.card {
+  margin-bottom: 1.5em;
 }
